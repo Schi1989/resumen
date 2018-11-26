@@ -1,0 +1,46 @@
+1-articulo
+Porque SQL está superando a No SQL.
+El articulo nos habla de cómo al principio las empresas se pasaron a NoSQl  por el gran volumen  de datos que se tiene diariamente; donde al tiempo vieron que no era tan eficiente debido a los gastos que debían tener, porque estos lenguajes tienen sus propios motores de Bases de datos y además no manejan un lenguaje estándar de programación. SQL lo que proporciono como valor adicional para nuevamente ganar la confianza de las empresas fue expresar patrones de acceso a bases de datos más confiables e impulsar los cálculos a los datos además tiene la factibilidad de que la empresa no tiene que estar capacitando al personal de cómo se utiliza el lenguaje dado que maneja un estándar que mejora mucho el rendimiento y siempre se tiene un patrón de cómo se debe utilizar la herramienta.
+
+2- artículo 
+Que pasa cuando presionas play en netflix.
+En este nos habla de cómo netflix de acuerdo a sus experiencias con los problemas tenidos con las bases de datos; deja las bases de datos en segundo plano y se enfoca en proporcionar valor a los streaming que es lo que más han reforzado hoy en día para que los clientes cada vez que pase una falla se pueda realizar una labor de contingencia con cualquier otra regional que soporte los usuarios de la falla y así pasar desapercibido los problemas. Además, la big data ha ayudado mucho a netflix ya que con esto se pueden concentrar más en los gustos de cada usuario para siempre sugerirle programación de su interés.
+
+3-articulo
+Porque Uber cambio de Postgres a  MySQL
+Esto se da porque la herramienta de MySQL le da más versatilidad de cara a lo que el negocio quiere hacia su futuro
+
+4-articulo
+Fallas en la seguridad de las tarjetas de crédito y credenciales en Rappi.
+Esto se dio debido a que no cumplieron con el protocolo de seguridad más alta, lo que permitió que la información de las tarjetas y los datos personales de los clientes estaban expuestos en la página de Rappi, lo que hacía que se visualizara los códigos y claves de cada cliente, lo que produjo que cualquier atacante pudiera ver en el código esta información dando como resultado varios clientes que les realizaron compras no deseadas y algunos les clonaron la tarjeta. Lo que realizaron para resolver el problema fue cambiar la arquitectura del procesamiento de pago.
+
+
+Video 1 estructura de control
+
+Modelo
+Selección, iteración y secuencia
+Selección = if, else if,case.
+Iteración = for, 	 loop, while
+
+
+Video de No SQL introducción.
+Algunos motores de Bases de datos NoSQL
+Cassandra, mongoDB, redis, riak, couchDB
+
+Ventajas
+-	Estructura simple y flexible.
+-	No tiene schema
+-	Generalmente están basados en llaves valor y llave es la clave primaria
+-	Hay diferentes tipos de almacenamiento puede ser por columnas, por documentos, llave valor, objetos y XML.
+-	Son Baratas
+-	Se distribuya la carga en todos los nodos
+-	La licencia es open source
+Desventajas de las Bases de datos No SQL
+-	No tiene confiabilidad porque los datos se pueden perder fácilmente.
+-	No se cumple nada del principio ACID
+-	La consistencia de los datos está acorde a la normalización que se tenga en la base de datos.
+-	Muchas veces hay que implementar sobre código de propietario.
+-	Los queries son más largos
+-	Incompatibilidad con SQL.
+
+
